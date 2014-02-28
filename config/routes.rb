@@ -1,4 +1,6 @@
 MhtApp::Application.routes.draw do
+  resources :patients
+
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
   root  'static_pages#home'

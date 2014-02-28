@@ -4,32 +4,9 @@
       <div id="sidebar-wrapper">
         <ul class="sidebar-nav" id="side-nav">
           <li>
-            <a href="#" class="text-left">
-                          <b>
-                            Patients
-                          </b>
-                        </a>
+            <h4> Patients </h4>
           </li>
-          <li>
-            <a href="#">
-                          Patient 1
-                        </a>
-          </li>
-          <li>
-            <a href="#">
-                          Patient 2
-                        </a>
-          </li>
-          <li>
-            <a href="#">
-                          Patient 3
-                        </a>
-          </li>
-          <li>
-            <a href="#">
-                          Patient 4
-                        </a>
-          </li>
+
         </ul>
       </div>
       <!-- Page content -->
@@ -96,7 +73,7 @@
                     Add patients, remove exsisting patients, and more.
                   </p>
                   <p>
-                    <a class="btn btn-primary btn-lg" role="button">Manage Now</a>
+                    <%= link_to "Manage Now", patients_path , class: "btn btn-primary btn-lg"%>
                   </p>
                 </center>
               </div>
@@ -142,8 +119,3 @@
         </div>
       </div>
     </div>
-    </td>
-    </tr>
-    </tbody>
-    </table>
-    </span>
