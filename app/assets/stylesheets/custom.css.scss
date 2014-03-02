@@ -77,10 +77,12 @@ p {
 
 
 /* header */
+#mh {
+  padding-right: 20px;
+}
 
 #logo {
   float: left;
-  margin-right: 10px;
   font-size: 1.7em;
   color: white;
   text-transform: uppercase;
@@ -89,10 +91,6 @@ p {
   font-weight: bold;
   line-height: 1;
   margin-left: 5%;
-  &:hover {
-    color: white;
-    text-decoration: none;
-  }
 }
 
 #top_container {
@@ -101,6 +99,7 @@ p {
 
 #home_about_nav {
   margin-right:5%;
+  padding-top: 10px;
 }
 
 .nav li{
@@ -123,9 +122,6 @@ footer {
   color: $grayMediumLight;
   a {
     color: $gray;
-    &:hover {
-      color: $grayMediumLight;
-    }
   }
   small {
     float: left;
@@ -186,14 +182,20 @@ aside {
 
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
-  width: 100%;
+  width: 20%;
   margin-bottom: 15px;
-  @include box_sizing;
+  display: block;
+  text-align: center;
+ /* @include box_sizing;*/
 }
 
 input {
   height: auto !important;
 }
+.signin {
+    display: inline-block;
+    text-align: center;
+    }
 
 #error_explanation {
   color: #f00;
@@ -236,30 +238,11 @@ input {
   margin:0 auto;
   float:none;
 }
-/* Center align the text within the three columns below the carousel */
-.marketing .span4 {
-  text-align: center;
-}
 
-.marketing .span4 p {
-
-}
-
-/* Pad the edges of the mobile views a bit */
-.marketing {
-  width: 90%;
-}
-
-.row {
+/*.row {
   margin-left: 0;
-}
+}*/
 
-.centered {
-    display: block;
-    margin-left: 44%;
-    text-align: center;
-    float: none;
-}
 
 
 /* Featurettes
