@@ -11,11 +11,12 @@
 development:
    adapter: postgresql
    encoding: unicode
-   database: mht_development
-   host: localhost
    pool: 5
-   username: mht_admin
-   password: mht_adminpass
+   database: d3a1fkk13ri98k
+   username: icloesekeueatm
+   password: T4r-tFF-8WWlaJkravezj8gmry
+   host: ec2-54-235-99-46.compute-1.amazonaws.com
+   port: 5432
 
 # Connect on a TCP socket. Omitted by default since the client uses a
 # domain socket that doesn't need configuration. Windows does not have
@@ -38,17 +39,19 @@ development:
 test:
    adapter: postgresql
    encoding: unicode
-   database: mht_test
-   host: localhost
    pool: 5
-   username: mht_admin
-   password: mht_adminpass
+   database: d3a1fkk13ri98k
+   username: icloesekeueatm
+   password: T4r-tFF-8WWlaJkravezj8gmry
+   host: ec2-54-235-99-46.compute-1.amazonaws.com
+   port: 5432
 
 production:
    adapter: postgresql
    encoding: unicode
-   database: mht_production
-   host: localhost
    pool: 5
-   username: mht_admin
-   password: mht_adminpass
+   database: d3a1fkk13ri98k
+   username: icloesekeueatm
+   password: T4r-tFF-8WWlaJkravezj8gmry
+   host: ec2-54-235-99-46.compute-1.amazonaws.com
+   port: 5432
